@@ -1,0 +1,95 @@
+PYTHON PROJECT
+
+ TITLE: BMI CALCULATOR
+
+
+
+
+                                                       
+
+                                                       BY:
+                                                 SANJITH R S
+SAI SANKALP S
+
+INTRODUCTION
+In this Project we will create a Body Mass Index (BMI) Calculator with the help of the Python programming language. 
+
+BMI in short for Body Mass Index, is a measure of relative weight based on the mass and height of an individual. We generally use the Body Mass Index in order to categorize people on the basis of their height and weight. These categories are underweight, healthy, overweight, and even obesity. Moreover, it is also adopted by various countries in order to promote healthy eating.
+
+We can consider Body Mass Index (BMI) as a substitute for direct measurements of body fat. Besides, BMI is a low-cost and easy-to-perform method of screening for weight classes that may cause health-related problems.
+
+A BMI Calculator accepts the weight and height of an individual and calculates the Body Mass Index (BMI) of that person.
+Body Mass Index (BMI) is a measure of body fat on the basis of height and weight, respectively.
+On the basis of the BMI of an individual, the calculator returns a statement stating the overall health of the person.
+Now that we have understood what body mass index (BMI) is, we need to know the formula of it to implement it in the python programming language. The formula is following
+ 
+BMI = Weight / Height²
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def main(bmi):
+  if bmi<=18.5:
+    print("you are underweight")
+  elif bmi<=24.9:
+    print("you are healthy")
+  elif bmi<=29.9:
+    print("you are overweight")
+  else:
+    print("you are obese")
+
+def bm():
+
+ height=float(input("enter your height in cm "))
+ weight=float(input("enter your weight in kg "))
+ height1=height/100
+ bmi=weight/(height1*height1)
+ print("your body mass index is",bmi)
+ main(bmi)
+bm()
+	
+
+
+
+
